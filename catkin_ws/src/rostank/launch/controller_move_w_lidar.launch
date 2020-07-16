@@ -1,0 +1,13 @@
+<launch>
+
+  <include file="$(find rplidar_ros)/launch/rplidar_a3.launch" >
+    <arg name="frame_id" value="lidar"/>
+  </include>
+
+  <node name="joy" pkg="joy" type="joy_node" />
+
+  <node name="joy2cmdvel" pkg="rostank" type="joy_to_cmd_vel.py" />
+
+  <node name="cmdvel2motors" pkg="rostank" type="cmd_vel_to_motors.py" />
+
+</launch>

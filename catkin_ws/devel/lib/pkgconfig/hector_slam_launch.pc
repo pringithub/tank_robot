@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_ws/devel
+
+Name: hector_slam_launch
+Description: Description of hector_slam_launch
+Version: 0.4.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
