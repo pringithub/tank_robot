@@ -23,7 +23,7 @@ RAD=0.6
 try:
     joy = xbox.Joystick()         #Initialize joystick
     NO_VIDEO=True
-    if not NO_VIDEO:
+    if NO_VIDEO:
         import FPV_pub
         from FPV_pub import FPV
         fpv = FPV()
