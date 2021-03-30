@@ -50,7 +50,7 @@ psutil==5.6.2
 pyasn1==0.1.9
 pybase64==0.5.0
 pycrypto==2.6.1
-Pygments==2.2.0
+Pygments==2.7.4
 pyinotify==0.9.6
 PyJWT==1.4.2
 pylint==1.6.5
